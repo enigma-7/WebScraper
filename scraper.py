@@ -1,8 +1,6 @@
 import os, PyPDF2, json, time, defaults
-
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
-
 
 class arxivScraper:
 	def __init__(self, filedir = defaults.directory["Resource"],
@@ -29,6 +27,7 @@ class arxivScraper:
 			return False
 
 	def get_filenames(self):
+		"""From resource directory: searches for files named numerically; sorts based on release date."""
 		eligibles = list(filter(self.is_arxiv, os.listdir(self.filedir)))
 		eligibles.sort()
 
@@ -39,9 +38,12 @@ class arxivScraper:
 		return sorted
 
 	def get_arxivids(self):
+		"""Get arXiv IDs from filenames."""
 		return [fil.split('.pdf')[0].split('v')[0] for fil in self.filenames]
 
 	def get_hyperlinks(self):
+		"""Gets hyperlinks from either the first hyperlink encountered in PDF (pre NCC) or
+		constructs URL from filename (post NCC)."""
 		url = []
 
 		for fil in self.filenames:
@@ -56,6 +58,7 @@ class arxivScraper:
 		return url
 
 	def extract(self):
+		"""Webcrawler using Firefox to scrape relevant elements from hyperlinks given into response directory"""
 		options = Options()
 		options.add_argument('--headless')
 		driver = webdriver.Firefox(options=options)
@@ -88,6 +91,7 @@ class arxivScraper:
 		driver.quit()
 
 	def check_new_files(self):
+		"""Check for discrepancies between files is resource directory and files in response directory."""
 		responses = [fil.split('.json')[0] for fil in list(filter(self.is_arxiv, os.listdir(self.respdir)))]
 		new_files = (set(self.arxivids) - set(responses)).__len__()
 
@@ -96,6 +100,7 @@ class arxivScraper:
 			self.extract()
 
 	def write_summary(self, sep = defaults.separator, verbose = False, title_len = defaults.title_len):
+		"""Loads .json files and writes resource management summary."""
 		self.check_new_files()
 
 		f = open(self.bibdir + 'summary.txt', 'w')
@@ -109,6 +114,7 @@ class arxivScraper:
 			with open('responses/' + arxivid + '.json') as json_file:
 				data = json.load(json_file)
 
+			#Prevent math errors in LaTeX compilation
 			split = data['Title'].split("] ")[-1].split(" ")
 			for i, str in enumerate(split):
 				if "_" in str:
@@ -116,8 +122,9 @@ class arxivScraper:
 
 			title    = " ".join(split)[:title_len]
 			url      = data['url']
+			#Write last names only.
 			authors  = ", ".join([str.split(" (")[0].split(" ")[-1].split(")")[-1] for str in data['Authors'].split(",")])
-
+			#
 			line     = sep.join([ r"\href{%s}{%s}"% (url, arxivid), title, authors + "    \n"])
 
 			f.write(line)
@@ -128,6 +135,7 @@ class arxivScraper:
 		f.close()
 
 	def write_ref_bib(self, verbose = False):
+		"""Loads .json files and writes ref.bib file."""
 		self.check_new_files()
 
 		f = open(self.bibdir + 'ref.bib', 'w')
@@ -143,7 +151,7 @@ class arxivScraper:
 				data = json.load(json_file)
 
 			bibtex = data['bibtex']
-
+			#Use arXiv ID as bibtex key.
 			split1 = bibtex.split('{')
 			split2 = split1[1].split(',')
 			split2[0] = arxivid
