@@ -1,0 +1,35 @@
+arXiv	Title	Authors
+\href{https://arxiv.org/abs/hep-ph/9505320v1}{9505320}	Gluon Production at High Transverse Momentum in 	Kovner, McLerran, Weigert    
+\href{https://arxiv.org/abs/hep-ph/9606337v1}{9606337}	The Intrinsic Glue Distribution at Very Small x	Jalilian-Marian, Kovner, McLerran, Weigert    
+\href{https://arxiv.org/abs/hep-ph/9701284v1}{9701284}	The BFKL Equation from the Wilson Renormalizatio	Jalilian-Marian, Kovner, Leonidov, Weigert    
+\href{https://arxiv.org/abs/hep-ph/9706377v1}{9706377}	The Wilson renormalization group for low x physi	Marian, Kovner, Leonidov, Weigert    
+\href{https://arxiv.org/abs/hep-ph/9709432v2}{9709432}	The Wilson renormalization group for low x physi	Jalilian-Marian, Kovner, Weigert    
+\href{https://arxiv.org/abs/hep-th/9811101v1}{9811101}	Supergravity, Brane Dynamics and String Duality	West,     
+\href{https://arxiv.org/abs/hep-ph/0004044v3}{0004044}	Unitarity at small Bjorken x	Weigert    
+\href{https://arxiv.org/abs/hep-ph/0110169v1}{0110169}	A Simple Derivation of the JIMWLK Equation	Mueller    
+\href{https://arxiv.org/abs/hep-ph/0206076v2}{0206076}	Away-from-jet energy flow	Banfi, Marchesini, Smye    
+\href{https://arxiv.org/abs/hep-ph/0312050v1}{0312050}	Non-global jet evolution at finite $N_{c}$	Weigert    
+\href{https://arxiv.org/abs/hep-ph/0312336v1}{0312336}	Sudakov Form Factors	Collins    
+\href{https://arxiv.org/abs/math-ph/0401014v2}{0401014}	Canonical bases for real representations of Clif	Bilge, Kocak, Uguz    
+\href{https://arxiv.org/abs/hep-ph/0501087v1}{0501087}	Evolution at small $x_{bj:}$ The Color Glass Con	Weigert    
+\href{https://arxiv.org/abs/hep-th/0506011v1}{0506011}	Clifford Algebras in Physics	Traubenberg    
+\href{https://arxiv.org/abs/0805.0311v3}{0805.0311}	Clifford Algebras, Clifford Groups, and a Genera	Gallier    
+\href{https://arxiv.org/abs/0810.0889v2}{0810.0889}	Relating $e^+e^-$ annihilation to high energy sc	Hatta    
+\href{https://arxiv.org/abs/0909.0056v2}{0909.0056}	Jet energy flow at the LHC	Hatta, Ueda    
+\href{https://arxiv.org/abs/1002.0333v1}{1002.0333}	The Color Glass Condensate	Gelis, Iancu, Jalilian-Marian, Venugopalan    
+\href{https://arxiv.org/abs/1012.2288v2}{1012.2288}	Jets and QCD: A Historical Review of the Discove	Ali, Kramer    
+\href{https://arxiv.org/abs/1106.3197v2}{1106.3197}	Clifford Algebras and Spinors	Todorov    
+\href{https://arxiv.org/abs/1108.0818v2}{1108.0818}	Towards thermalization in heavy-ion collisions: 	Hatta, Nishiyama    
+\href{https://arxiv.org/abs/1310.0378v3}{1310.0378}	Jalilian-Marian, Iancu, McLerran, Weigert, Leoni	Kovner, Lublinsky, Mulian    
+\href{https://arxiv.org/abs/1401.0374v1}{1401.0374}	Conformal symmetry of JIMWLK Evolution at NLO	Kovner, Lublinsky, Mulian    
+\href{https://arxiv.org/abs/1403.4949v2}{1403.4949}	Non-global Logarithms at 3 Loops, 4 Loops, 5 Loo	Schwartz, Zhu    
+\href{https://arxiv.org/abs/1406.6253v2}{1406.6253}	Generating function for web diagrams	A.A.Vladimirov    
+\href{https://arxiv.org/abs/1501.03754v2}{1501.03754}	Resummation of non-global logarithms and the BFK	Caron-Huot    
+\href{https://arxiv.org/abs/1605.03862v1}{1605.03862}	Balitsky-Kovchegov equation at next-to-leading o	Lappi, Mäntysaari    
+\href{https://arxiv.org/abs/1610.08801v2}{1610.08801}	Simplification Rules for Birdtrack Operators	Alcock-Zeilinger, Weigert    
+\href{https://arxiv.org/abs/1610.08802v2}{1610.08802}	Transition Operators	Alcock-Zeilinger, Weigert    
+\href{https://arxiv.org/abs/1610.10088v2}{1610.10088}	Compact Hermitian Young Projection Operators	Alcock-Zeilinger, Weigert    
+\href{https://arxiv.org/abs/1707.07606v2}{1707.07606}	Structure of rapidity divergences in soft factor	Vladimirov    
+\href{https://arxiv.org/abs/1710.06722v1}{1710.06722}	Resumming double non-global logarithms in the ev	Hatta, Iancu, Mueller, Triantafyllopoulos    
+\href{https://arxiv.org/abs/1812.11223v2}{1812.11223}	Compact construction algorithms for the singlets	Alcock-Zeilinger, Weigert    
+\href{https://arxiv.org/abs/1907.05474v2}{1907.05474}	Introduction to a renormalisation group method	Bauerschmidt, Brydges, Slade    
