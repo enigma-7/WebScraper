@@ -1,0 +1,38 @@
+arXiv	Title	Authors
+\href{file:/home/jibran/Desktop/resources/9505320.pdf}{9505320}	\href{https://arxiv.org/abs/hep-ph/9505320v1}{Gluon Production at High Transverse Momentum in }	Kovner, McLerran, Weigert    
+\href{file:/home/jibran/Desktop/resources/9606337.pdf}{9606337}	\href{https://arxiv.org/abs/hep-ph/9606337v1}{The Intrinsic Glue Distribution at Very Small x}	Jalilian-Marian, Kovner, McLerran, Weigert    
+\href{file:/home/jibran/Desktop/resources/9701284.pdf}{9701284}	\href{https://arxiv.org/abs/hep-ph/9701284v1}{The BFKL Equation from the Wilson Renormalizatio}	Jalilian-Marian, Kovner, Leonidov, Weigert    
+\href{file:/home/jibran/Desktop/resources/9706377.pdf}{9706377}	\href{https://arxiv.org/abs/hep-ph/9706377v1}{The Wilson renormalization group for low x physi}	Marian, Kovner, Leonidov, Weigert    
+\href{file:/home/jibran/Desktop/resources/9709432.pdf}{9709432}	\href{https://arxiv.org/abs/hep-ph/9709432v2}{The Wilson renormalization group for low x physi}	Jalilian-Marian, Kovner, Weigert    
+\href{file:/home/jibran/Desktop/resources/9811101.pdf}{9811101}	\href{https://arxiv.org/abs/hep-th/9811101v1}{Supergravity, Brane Dynamics and String Duality}	West,     
+\href{file:/home/jibran/Desktop/resources/0004044.pdf}{0004044}	\href{https://arxiv.org/abs/hep-ph/0004044v3}{Unitarity at small Bjorken x}	Weigert    
+\href{file:/home/jibran/Desktop/resources/0110169.pdf}{0110169}	\href{https://arxiv.org/abs/hep-ph/0110169v1}{A Simple Derivation of the JIMWLK Equation}	Mueller    
+\href{file:/home/jibran/Desktop/resources/0206076.pdf}{0206076}	\href{https://arxiv.org/abs/hep-ph/0206076v2}{Away-from-jet energy flow}	Banfi, Marchesini, Smye    
+\href{file:/home/jibran/Desktop/resources/0312050.pdf}{0312050}	\href{https://arxiv.org/abs/hep-ph/0312050v1}{Non-global jet evolution at finite $N_{c}$}	Weigert    
+\href{file:/home/jibran/Desktop/resources/0312336.pdf}{0312336}	\href{https://arxiv.org/abs/hep-ph/0312336v1}{Sudakov Form Factors}	Collins    
+\href{file:/home/jibran/Desktop/resources/0401014.pdf}{0401014}	\href{https://arxiv.org/abs/math-ph/0401014v2}{Canonical bases for real representations of Clif}	Bilge, Kocak, Uguz    
+\href{file:/home/jibran/Desktop/resources/0501087.pdf}{0501087}	\href{https://arxiv.org/abs/hep-ph/0501087v1}{Evolution at small $x_{bj:}$ The Color Glass Con}	Weigert    
+\href{file:/home/jibran/Desktop/resources/0506011.pdf}{0506011}	\href{https://arxiv.org/abs/hep-th/0506011v1}{Clifford Algebras in Physics}	Traubenberg    
+\href{file:/home/jibran/Desktop/resources/0805.0311.pdf}{0805.0311}	\href{https://arxiv.org/abs/0805.0311v3}{Clifford Algebras, Clifford Groups, and a Genera}	Gallier    
+\href{file:/home/jibran/Desktop/resources/0810.0889.pdf}{0810.0889}	\href{https://arxiv.org/abs/0810.0889v2}{Relating $e^+e^-$ annihilation to high energy sc}	Hatta    
+\href{file:/home/jibran/Desktop/resources/0909.0056v2.pdf}{0909.0056}	\href{https://arxiv.org/abs/0909.0056v2}{Jet energy flow at the LHC}	Hatta, Ueda    
+\href{file:/home/jibran/Desktop/resources/1002.0333.pdf}{1002.0333}	\href{https://arxiv.org/abs/1002.0333v1}{The Color Glass Condensate}	Gelis, Iancu, Jalilian-Marian, Venugopalan    
+\href{file:/home/jibran/Desktop/resources/1003.0813.pdf}{1003.0813}	\href{https://arxiv.org/abs/1003.0813v1}{New observables to test the Color Glass Condensa}	Marquet, Weigert    
+\href{file:/home/jibran/Desktop/resources/1012.2288.pdf}{1012.2288}	\href{https://arxiv.org/abs/1012.2288v2}{Jets and QCD: A Historical Review of the Discove}	Ali, Kramer    
+\href{file:/home/jibran/Desktop/resources/1106.3197.pdf}{1106.3197}	\href{https://arxiv.org/abs/1106.3197v2}{Clifford Algebras and Spinors}	Todorov    
+\href{file:/home/jibran/Desktop/resources/1108.0818.pdf}{1108.0818}	\href{https://arxiv.org/abs/1108.0818v2}{Towards thermalization in heavy-ion collisions: }	Hatta, Nishiyama    
+\href{file:/home/jibran/Desktop/resources/1207.0609.pdf}{1207.0609}	\href{https://arxiv.org/abs/1207.0609v2}{Orthogonal multiplet bases in SU(Nc) color space}	Keppeler, Sjodahl    
+\href{file:/home/jibran/Desktop/resources/1310.0378.pdf}{1310.0378}	\href{https://arxiv.org/abs/1310.0378v3}{Jalilian-Marian, Iancu, McLerran, Weigert, Leoni}	Kovner, Lublinsky, Mulian    
+\href{file:/home/jibran/Desktop/resources/1401.0374.pdf}{1401.0374}	\href{https://arxiv.org/abs/1401.0374v1}{Conformal symmetry of JIMWLK Evolution at NLO}	Kovner, Lublinsky, Mulian    
+\href{file:/home/jibran/Desktop/resources/1403.4949.pdf}{1403.4949}	\href{https://arxiv.org/abs/1403.4949v2}{Non-global Logarithms at 3 Loops, 4 Loops, 5 Loo}	Schwartz, Zhu    
+\href{file:/home/jibran/Desktop/resources/1406.6253.pdf}{1406.6253}	\href{https://arxiv.org/abs/1406.6253v2}{Generating function for web diagrams}	A.A.Vladimirov    
+\href{file:/home/jibran/Desktop/resources/1501.03754.pdf}{1501.03754}	\href{https://arxiv.org/abs/1501.03754v2}{Resummation of non-global logarithms and the BFK}	Caron-Huot    
+\href{file:/home/jibran/Desktop/resources/1605.03862.pdf}{1605.03862}	\href{https://arxiv.org/abs/1605.03862v1}{Balitsky-Kovchegov equation at next-to-leading o}	Lappi, Mäntysaari    
+\href{file:/home/jibran/Desktop/resources/1608.05293.pdf}{1608.05293}	\href{https://arxiv.org/abs/1608.05293v2}{CGC factorization for forward particle productio}	Iancu, Mueller, Triantafyllopoulos    
+\href{file:/home/jibran/Desktop/resources/1610.08801.pdf}{1610.08801}	\href{https://arxiv.org/abs/1610.08801v2}{Simplification Rules for Birdtrack Operators}	Alcock-Zeilinger, Weigert    
+\href{file:/home/jibran/Desktop/resources/1610.08802.pdf}{1610.08802}	\href{https://arxiv.org/abs/1610.08802v2}{Transition Operators}	Alcock-Zeilinger, Weigert    
+\href{file:/home/jibran/Desktop/resources/1610.10088.pdf}{1610.10088}	\href{https://arxiv.org/abs/1610.10088v2}{Compact Hermitian Young Projection Operators}	Alcock-Zeilinger, Weigert    
+\href{file:/home/jibran/Desktop/resources/1707.07606.pdf}{1707.07606}	\href{https://arxiv.org/abs/1707.07606v2}{Structure of rapidity divergences in soft factor}	Vladimirov    
+\href{file:/home/jibran/Desktop/resources/1710.06722v1.pdf}{1710.06722}	\href{https://arxiv.org/abs/1710.06722v1}{Resumming double non-global logarithms in the ev}	Hatta, Iancu, Mueller, Triantafyllopoulos    
+\href{file:/home/jibran/Desktop/resources/1812.11223.pdf}{1812.11223}	\href{https://arxiv.org/abs/1812.11223v2}{Compact construction algorithms for the singlets}	Alcock-Zeilinger, Weigert    
+\href{file:/home/jibran/Desktop/resources/1907.05474.pdf}{1907.05474}	\href{https://arxiv.org/abs/1907.05474v2}{Introduction to a renormalisation group method}	Bauerschmidt, Brydges, Slade    

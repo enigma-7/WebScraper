@@ -5,13 +5,14 @@ from selenium.webdriver.firefox.options import Options
 class arxivScraper:
 	def __init__(self, filedir = defaults.directory["Resource"],
 						respdir = defaults.directory["Response"],
-						 bibdir = defaults.directory["Bibliography"]):
+						 bibdir  = defaults.directory["Bibliography"]):
 		self.filedir = filedir
 		self.respdir = respdir
 		self.bibdir  = bibdir
 		self.filenames  = self.get_filenames()
-		self.hyperlinks = self.get_hyperlinks()
+		self.filepaths  = self.get_filepaths()
 		self.arxivids   = self.get_arxivids()
+		self.hyperlinks = self.get_hyperlinks()
 
 	def is_arxiv(self, fil):
 		digits = [str(i) for i in range(10)]
@@ -36,6 +37,10 @@ class arxivScraper:
 		sorted = pre2000 + pos2000
 
 		return sorted
+
+	def get_filepaths(self):
+		"""Get aboslute file paths"""
+		return [os.path.abspath(self.filedir + fil) for fil in self.filenames]
 
 	def get_arxivids(self):
 		"""Get arXiv IDs from filenames."""
@@ -109,23 +114,28 @@ class arxivScraper:
 		if verbose:
 			print("Resource Manager Output:		\n")
 
-		for i, arxivid in enumerate(self.arxivids):
+		for i in range(self.arxivids.__len__()):
+
+			arxivid = self.arxivids[i]
+			filepath = self.filepaths[i]
 
 			with open('responses/' + arxivid + '.json') as json_file:
 				data = json.load(json_file)
 
 			#Prevent math errors in LaTeX compilation
 			split = data['Title'].split("] ")[-1].split(" ")
-			for i, str in enumerate(split):
+			for j, str in enumerate(split):
 				if "_" in str:
-					split[i] = "$" + str.split("_")[0] + "_{" +  str.split("_")[-1] + "}$"
+					split[j] = "$" + str.split("_")[0] + "_{" +  str.split("_")[-1] + "}$"
 
 			title    = " ".join(split)[:title_len]
 			url      = data['url']
 			#Write last names only.
 			authors  = ", ".join([str.split(" (")[0].split(" ")[-1].split(")")[-1] for str in data['Authors'].split(",")])
-			#
-			line     = sep.join([ r"\href{%s}{%s}"% (url, arxivid), title, authors + "    \n"])
+
+			line     = sep.join([r"\href{file:%s}{%s}" % (filepath,arxivid),
+									r"\href{%s}{%s}"% (url, title),
+										authors + "    \n"])
 
 			f.write(line)
 
@@ -165,8 +175,3 @@ class arxivScraper:
 				print("\t" + bibtex)
 
 		f.close()
-
-if __name__=="__main__":
-	scraper = arxivScraper()
-	scraper.write_summary(verbose=True)
-	scraper.write_ref_bib(verbose=True)
